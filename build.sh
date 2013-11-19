@@ -18,6 +18,9 @@ cp -r ${DOWNLOAD_DIR}/djangotoolbox/djangotoolbox ./djangotoolbox
 
 [ -f ${DOWNLOAD_DIR}/pip-delete-this-directory.txt ] && rm -rf ${DOWNLOAD_DIR}
 
+# we use App Engine's builtin Django 1.4 instead
+rm -rf django
+
 echo "Now run:
 ./manage.py runserver
 

@@ -40,7 +40,7 @@ inbound_services:
 # TODO: List any other App Engine SDK libs you may need here.
 libraries:
 - name: django
-  version: latest
+  version: 1.4
 
 # Handlers tell App Engine how to route requests to your application.
 handlers:
