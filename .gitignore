@@ -5,8 +5,8 @@
 /build/
 
 # build.sh installed libraries
-/autoload/
-/dbindexer/
-/djangoappengine/
-/djangotoolbox/
+#/autoload/
+#/dbindexer/
+#/djangoappengine/
+#/djangotoolbox/
 
